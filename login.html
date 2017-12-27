@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>吾予-一见倾心</title>
+		<link rel="stylesheet" type="text/css" href="css/all.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="icon" href="logo--icon.png"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+		ul.soso{
+		width: 320px;
+		background-color: #fff;
+		left: 630px;
+		top: 70px;
+		padding: 0;	
+		border: 1px solid #e5e2e2;
+		overflow: hidden;
+		z-index: 9999;
+		position: absolute;
+			}
+	ul.soso>li{
+		font-size: 12px;
+		line-height:30px;
+		color: #333;
+		font-family: "微软雅黑";
+		padding-left: 6px;
+		margin: 0;
+	}
+	
+	ul.soso li:hover{
+		background-color: #e9e5e5;
+		cursor: pointer;
+	}
+	.lay{
+		width:100%;
+		height: 100%;
+		background-color:rgba(0,0,0,.7);
+		position: fixed;
+		z-index: 9999999;
+		display: none;
+		}
+		.lay .bbo{
+			width: 300px;
+			height: 200px;
+			text-align: center;
+			background-color: #fff;
+			border-radius: 10px;
+			left: 0
+			right: 0;
+			bottom: 0;
+			margin: 200px auto;
+			box-shadow: 2px 2px 4px #ccc;
+			display: none;	
+		}
+		</style>
+	</head>
+	<body>
+	<div class="lay">
+		<div class="bbo">
+			<p style="float: right; font-size: 30px;color: #999;margin-right: 10px;cursor: pointer;" class="close1">&times;</p>
+			<p style="padding-top: 80px;">请输入正确的用户名或密码！</p>
+		</div>
+	</div>
+	<div class="headtop">
+			<div class="logo"><img src="img/logo.png"/></div>
+	<div class="inp">
+		<input type="text" name="" id="myk" placeholder="请输入关键词搜索" />
+		<ul class="soso">
+			<li></li>
+		</ul>
+		<a href=""><img src="img/go.png"/></a>
+	</div>
+	<div class="goods">
+		<div class="left"><img src="img/ico.png"/></div>
+		<div class="right">我的购物车</div>
+	</div>
+		</div>
+		<div class="head">
+			<div class="nav">
+				<div class="nav1">
+					<div id="listtop">
+						<img src="img/nav1.jpg"/>
+					<p>全部商品分类</p>
+					</div>
+					<div class="nav1_list" style="display: none;">
+						<li>新品上架/Newly Listed</li>
+						<li>休闲女装/Leisure</li>
+						<li>日韩女装/Fashion</li>
+						<li>上衣/Coat</li>
+						<li>套装/Suit</li>
+						<li>裤装/Trousert</li>
+						<li>衬衫/Shirt</li>
+						<li>鞋包/Shose&Bages</li>
+					</div>
+					<div class="nav2">
+						<li id="now"><a href="index.html" style="font-size: 16px;">首页</a><span></span></li>
+						<li><a href="fashion.html" style="font-size: 16px;">潮流搭配</a><span></span></li>
+						<li><a href="new.html" style="font-size: 16px;">新品上市</a><span></span></li>
+						<li><a href="list.html" style="font-size: 16px;">热卖推荐</a><span></span></li>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="banner" style="width: 1349px;margin: 0 auto;">
+		<img src="img/login/banner.jpg"/>
+	</div>
+	<div class="login">
+		<div class="lolist">
+			<li><span class="well">如有账号，请登录</span></li>
+			<form action="">
+			<li><input type="text" placeholder="请输入用户名" name="userID" id="usr" value=""/></li>
+			<li><input type="text" placeholder="密码" name="password" id="psw" value=""/></li>
+			<button style="width: 150px;margin-top: 4px;margin-left: -134px;" id="btnm1"><a href="#javascript:;" style="color: #fff;">登&nbsp;&nbsp;&nbsp;&nbsp;录</a></button>
+			<li><input type="checkbox" name="" id="check2" value="" style="border: 1px solid #ccc;"/><b style="font-weight: normal;position: absolute;top: 154px;left: 176px;font-size: 12px;">记住用户名</b><label style="font-size:8px;position: absolute;left: 332px;top:152px;color: #ccc;"><b style="font-weight: normal;color: #999;">忘记密码？</b>|<b style="font-weight: normal;color: #ff6537;"><a href="register.html" style="color: #999;font-size: 12px;color:#ff6537">立即注册</a></b></label></li>
+			</form>
+			<p class="hezuo">合作网站账号登录：</p>
+			<div class="xiabiao">
+				<span class="sp1"></span>
+				<span class="sp2"></span>
+				<span class="sp3"></span>
+				<span class="sp4"></span>
+			</div>
+		</div>     
+	</div>
+	<div class="footer" style="margin-top: -0px;">
+		<div class="top">
+			<div class="one1">
+				<p>服务保障</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one2">
+				<p>支付方式</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one3">
+				<p>商家服务</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one4">
+				<p>物流配送</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one5">
+				<p>官方微信</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+		</div>
+		<div class="con">
+			<div class="con1">
+				<a href="">首页</a>
+				<a href="">潮流搭配</a>
+				<a href="">新品上市</a>
+				<a href="">热卖推荐</a>
+				<a href=""><img src="img/tell.jpg"/></a>
+			</div>
+			<div class="con2">
+				<p>版权所有 ©2017上海吾予—一见倾心有限公司  保留所有权利 | 沪ICP备12042163</p>
+				<p style="margin-top: -40px;">一见倾心   &nbsp;&nbsp;时尚潮流</p>
+			</div>
+			<!--<div class="con3">
+					<img src="img/guan_shgs.gif" alt="" />
+					<img src="img/guan_shgs.gif"/>
+					<img src="img/guan_wgdjp.png"/>
+			</div>-->
+		</div>
+	</div>
+	</body>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#btnm1").click(function(){
+				var $usrV = $("#usr").val();  //用户名验证
+				var $pswV = $("#psw").val();  //密码验证
+				if($usrV==""||$pswV==""){
+					$(".lay").fadeIn(500);
+					$(".bbo").fadeIn(500);
+				}else{
+					window.location.href="index.html";
+				$.post("http://datainfo.duapp.com/shopdata/userinfo.php",{"status":"login","userID": $usrV,"password":$pswV},function(res,s,xhr){
+					console.log(res);
+					if(res==0){
+						$(".lay").fadeIn(500);
+						$(".bbo").fadeIn(500);
+					}else if(res==2){
+						$(".lay").fadeIn(500);
+						$(".bbo").fadeIn(500);
+					}else{
+						window.location.href="index.html";
+					}
+			})
+			}
+		});
+		//关闭模态框
+			$(".close1").click(function(){
+				$(".lay").fadeOut(500);
+				$(".bbo").fadeOut(500);
+			})
+			$(document).keyup(function(e){
+				if (e.keyCode == 27){
+       			$(".lay").fadeOut(500);
+				$(".bbo").fadeOut(500);
+   		 		}
+			})
+			//关闭模态框
+		
+		
+		$("#myk").keyup(function(){
+					var $v = $(this).val();	
+					$("ul.soso").empty();
+					$.ajax({
+						type:"get",
+						url:"https://suggest.taobao.com/sug?code=utf-8&q="+$v+"&callback?",
+						async:true,
+						dataType:"jsonP",
+						success:function(res){
+							console.log(res);
+							$.each(res.result,function(i,d){
+								$("ul.soso").append("<li>"+d[0]+"</li>");
+							})
+						}
+						
+					});
+			})
+		});
+	</script>
+</html>
+

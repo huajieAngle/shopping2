@@ -1,0 +1,35 @@
+#header .container .col-md-3{
+	border: 1px solid red;
+	height: 100px;
+}
+#header .container .col-md-3 img{
+	width: 200px;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+}
+#header .container .col-md-6{
+	border: 1px solid red;
+	height: 100px;
+	padding-left: 200px;
+	padding-top: 40px;
+}
+#header .container .col-md-3{
+	border: 1px solid red;
+	height: 100px;
+}
+#header .navbar{
+	background-color: #fff;
+}
+#header .navbar-brand{
+	height: 100px;
+}
+#header .navbar-brand img{
+	width: 230px;
+	height: 80px;
+	margin-top: 10px;
+}
+#header #navbar-collapse{
+	line-height: center;
+	padding-top: 30px;
+}

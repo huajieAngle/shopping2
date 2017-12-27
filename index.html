@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>吾予-一见倾心</title>
+		<link rel="stylesheet" type="text/css" href="css/all.css"/>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+		<link rel="stylesheet" href="css/animate.css">
+ 	 	<link rel="stylesheet" href="css/site.css">
+ 	 	<link rel="icon" href="logo--icon.png"/>
+ 	 	<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lightbox.js"></script>
+		<script src="js/wow.js"></script>
+		<link rel="stylesheet" href="css/style22.css"><!--加入购物车-->
+		<script src="js/jquery.fly.min.js"></script><!--加入购物车-->
+		<style type="text/css">
+		.headtop .inpp{
+			width: 300px;
+			height: 80px;
+			/*background-color: palegreen;*/
+			float: left;
+			margin-left: 610px;
+			margin-top:42px ;
+}
+.headtop .inpp input{
+	width: 356px;
+	height: 30px;
+	border: 1px solid #d7d5d5;
+	color:#cbc9c9;
+	border-radius: 50px;
+	padding: 12px 6px;
+	outline: none;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.headtop .inpp img{
+	width: 18px;
+	height: 20px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 328px;	
+}
+ul.soso{
+		width: 320px;
+		background-color: #fff;
+		left: 630px;
+		top: 70px;
+		padding: 0;	
+		border: 1px solid #e5e2e2;
+		overflow: hidden;
+		z-index: 999;
+		position: absolute;
+			}
+	ul.soso>li{
+		font-size: 12px;
+		line-height:30px;
+		color: #333;
+		font-family: "微软雅黑";
+		padding-left: 6px;
+		margin: 0;
+	}
+	
+	ul.soso li:hover{
+		background-color: #e9e5e5;
+		cursor: pointer;
+	}
+		</style>
+	</head>
+	<body>
+		<div class="side">
+			<div class="me">
+				<span class="glyphicon glyphicon-user" style="font-size: 22px;color: #fff;"><span style="margin-top: 6px;">账号</span></span>		
+				<div class="login">
+					<a href="" style="
+						float: right;margin-right:14px;width: 30px;height: 20px;color: #999;font-size: 30px;text-decoration: none;">&times;</a>	</br>
+						<img src="img/logo1.png"/ style="width: 120px;
+							height: 40px;">
+						<p>你好！请 <a href="login.html" style="color: #ff6537;font-size: 14px;">登录</a></span> | <a href="register.html"style="color: #ff6537;font-size: 14px;">注册</a></p>
+						<div class="de">
+							<ul>
+								<li>
+									<span class="glyphicon glyphicon-calendar" style="color: #999; margin-left: 90px;margin-right: 60px;margin-top: 24px;font-size: 30px;" ></span>							
+									<span style="font-size: 14px;display: block;margin-left: 24px;margin-top: 14px;color: #666;">我的订单</span>
+								</li>
+								<li>
+									<span class="glyphicon glyphicon-envelope" style="color: #999;margin-top: 24px;font-size: 30px;"></span>
+									<span style="font-size: 14px;display: block;margin-left: 0;margin-top: 14px; color: #666;">我的消息</span>
+								</li>
+							</ul>
+						</div>
+						<span style="float: right;margin-top: 14px;color: #666;font-size: 12px;margin-right: 10px;">会员俱乐部</span>
+				</div>	
+				</div>
+			<ul class="goods">
+				<i id="end"></i><!--加入购物车-->
+				<span class="glyphicon glyphicon-shopping-cart" style="color: #fff;font-size: 22px;"><span style="margin-top: 6px;line-height: 20px;">购</br>物</br>车</span></span>
+			<div id="msg" style="margin-top: -110px;background-color: #333;">已成功加入购物车！</div><!--加入购物车-->
+			</ul>
+			<div class="cang">
+				<span class="glyphicon glyphicon-heart" style="font-size: 26px;margin-top: 30px;padding-top: 10px;"></span>
+				<div class="pp1">品牌收藏</div>
+			</div>
+			<div class="tang">
+				<span class="glyphicon glyphicon-star" style="font-size: 26px;margin-top: 30px;padding-top: 10px;"></span>
+				<div class="pp2">商品收藏</div>
+			</div>
+			<div class="zu">
+				<span class="glyphicon glyphicon-repeat" style="font-size: 26px;margin-top: 30px;padding-top: 10px;"></span>
+				<div class="pp3">我的足迹</div>
+			</div>
+			<div class="fan">
+				<span class="glyphicon glyphicon-tag" style="font-size: 26px;margin-top: 30px;padding-top: 10px;"></span>
+				<div class="pp4">会员反馈</div>
+			</div>
+			<div class="top">
+				<span class="glyphicon glyphicon-menu-up" style="font-size: 26px;margin-top: 30px;padding-top: 10px;"></span>
+				<div class="pp5">返回顶部</div>
+			</div>
+		</div>
+		<div class="headtop">
+			<div class="logo"><img src="img/logo.png"/></div>
+	<div class="inpp">
+		<input type="text" name="" id="myk" placeholder="请输入关键词搜索" style="z-index: -1; color: #cbc9c9;"/>
+		<ul class="soso">
+			
+		</ul>
+		<a href=""><img src="img/go.png"/></a>
+	</div>
+	<div class="goods">
+		<div class="left"><img src="img/ico.png"/></div>
+		<div class="right">我的购物车</div>
+	</div>
+		</div>
+
+		<div class="head">
+			<div class="nav">
+				<div class="nav1">
+					<div id="listtop">
+						<img src="img/nav1.jpg"/>
+					<p>全部商品分类</p>
+					</div>
+					<div class="nav1_list" style="display: block;">
+						<li>新品上架/Newly Listed</li>
+						<li>休闲女装/Leisure</li>
+						<li>日韩女装/Fashion</li>
+						<li>上衣/Coat</li>
+						<li>套装/Suit</li>
+						<li>裤装/Trousert</li>
+						<li>衬衫/Shirt</li>
+						<li>鞋包/Shose&Bages</li>
+					</div>
+					<div class="nav2">
+						<li id="now"><a href="#">首页</a><span></span></li>
+						<li><a href="fashion.html">潮流搭配</a><span></span></li>
+						<li><a href="new.html">新品上市</a><span></span></li>
+						<li><a href="list.html">热卖推荐</a><span></span></li>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="banner">
+		<ul class="pic">
+			<li><a href="#"><img src="img/index/banner1.png"/></a></li>
+			<li><a href="#"><img src="img/index/banner2.png"/></a></li>
+			<li><a href="#"><img src="img/index/banner3.png"/></a></li>
+		</ul>
+		<div class="btnbtn">
+				<a href="javascript:;" class="btn_left" style="text-decorationer: none;">&lt;</a>
+				<a href="javascript:;" class="btn_right" style="text-decoration: none;">&gt;</a>				
+			</div>
+			<div class="dot">
+				<span class="active"></span>
+				<span></span>
+				<span></span>
+			</div>
+	</div>
+	<div class="cont">
+		<div class="zong">
+			<div class="zong1 wow fadeInDown">
+				<div class="_img"><img src="img/index/zong1.png" /></div>
+				<img src="img/index/zong1.jpg" class="_imgZ"/ >
+			</div>
+			<div class="zong2 wow fadeInDown">
+				<div class="_img"><img src="img/index/zong2.png" /></div>
+				<img src="img/index/zong2.jpg" class="_imgZ"/ >
+				</div>
+			<div class="zong3 wow fadeInDown">
+				<div class="_img">
+					<a href=""><img src="img/index/zong3.png" /></a>
+				</div>
+					<img src="img/index/zong3.jpg" class="_imgZ"/ >
+			</div>
+			<div class="zong4 wow fadeInDown">
+				<div class="_img"><img src="img/index/zong4.png" /></div>
+				<img src="img/index/zong4.jpg" class="_imgZ"/ >
+			</div>
+			</div>
+	</div>	
+	<div class="list">
+			<div class="wire wow fadeIn" data-wow-duration="2s"><p>爆款推荐</p><span></span></div>
+			<div class="detil">
+				<div class="one wow fadeInUp" data-wow-duration="2s"><div class="one1"><a href="shopping.html"><img src="img/list/list1.png"/></a><p>欧美英伦风修身显瘦长袖衬衫<br/><span>￥129.00</span><br/>
+			<button> <a href="javascript:;" class=" addcar">购买</a></button><!--加入购物车-->
+				</p></div></div>
+				<div class="on wow fadeInUp" data-wow-delay="200ms" data-wow-duration="3s"><div class="on1"><a href="shopping.html"><img src="img/list/list2.png"/></a><p>中长款九分袖圆领宽松外套英伦<br/><span>￥255.00</span><br/><button> <a href="javascript:;" class=" addcar">购买</a></button></p></div></div>
+				<div class="on wow fadeInUp" data-wow-delay="400ms" data-wow-duration="3s"><div class="on1"><a href="shopping.html"><img src="img/list/list3.png"/></a><p>欧美英伦风修身显瘦长袖衬衫<br/><span>￥119.00</span><br/><button> <a href="javascript:;" class=" addcar">购买</a></button></p></div></div>
+				<div class="on wow fadeInUp" data-wow-delay="600ms"><div class="on1"><a href="shopping.html"><img src="img/list/list4.png"/></a><p>欧美英伦风修身显瘦长袖衬衫<br/><span>￥99.00</span><br/><button> <a href="javascript:;" class=" addcar">购买</a></button></p></div></div>
+			</div>
+			<div class="detil">
+				<div class="one wow fadeInUp" data-wow-delay="300ms"><div class="one1"><a href="shopping.html"><img src="img/list/list5.png"/></a><p>韩版直筒套头衫POLO领条纹长袖<br/><span>￥249.00</span><br/><button> <a href="javascript:;" class=" addcar">购买</a></button></p></div></div>
+				<div class="on wow fadeInUp" data-wow-delay="400ms"><div class="on1"><a href="shopping.html"><img src="img/list/list6.png"/></a><p>时尚字母网纱拼接套头落肩T恤<br/><span>￥269.00</span><br/><button> <a href="javascript:;" class=" addcar">购买</a></button></p></div></div>
+				<div class="on wow fadeInUp" data-wow-delay="500ms"><div class="on1"><a href="shopping.html"><img src="img/list/list7.png"/></a><p>欧美纯色百搭短款针织衫<br/><span>￥269.00</span><br/><button> <a href="javascript:;" class=" addcar">购买</a></button></p></div></div>
+				<div class="on wow fadeInUp" data-wow-delay="600ms"><div class="on1"><a href="shopping.html"><img src="img/list2/con4.jpg"/></a><p>时尚纯色荷叶袖针织衫<br/><span>￥288.00</span><br/><button> <a href="javascript:;" class=" addcar">购买</a></button></p></div></div>
+			</div>
+		</div>
+	<div class="conn">
+		<div class="wire one wow fadeInUp" data-wow-duration="2s"><p>为你精选</p><span></span></div>
+		<div class="cc">
+			<div class="mm">
+				<div class="zuo wow fadeInLeft"><img src="img/index/AD0Ivc-ZBRACGAAgi9W0wQUombiT5gQwmwI4qAI.jpg"/></div>
+				<div class="zuo">
+					<li class="wow flipInX" data-wow-delay="50ms"><img src="img/index/1.png"/></li>
+					<li class="wow flipInX" data-wow-delay="50ms"><img src="img/index/2.png"/></li>
+					<li class="wow flipInX" data-wow-delay="100ms"><img src="img/index/3.png"/></li>
+					<li class="wow flipInX" data-wow-delay="100ms"><img src="img/index/4.png"/></li>
+					<li class="wow flipInX" data-wow-delay="200ms"><img src="img/index/5.png"/></li>
+					<li class="wow flipInX" data-wow-delay="200ms"><img src="img/index/6.png"/></li>
+				</div>
+				<div class="you wow fadeIn"><img src="img/index/AD0Ivc-ZBRACGAAgidW0wQUooPeG8gUwswI4zAQ.jpg"/></div>	
+			</div>
+			<div class="nn">
+				<li class="wow flipInY"><img src="img/index/AD0Ivc-ZBRAEGAAgi5G1wQUosNSk8QUwfjjLAQ.png" alt="" /><p>POLO领风衣</p></li>
+				<li class="wow flipInY" data-wow-delay="100ms"><img src="img/index/AD0Ivc-ZBRAEGAAgjpG1wQUo8JmQwgQwfjjLAQ.png" alt="" /><p>修身毛呢外套</p></li>
+				<li class="wow flipInY" data-wow-delay="200ms"><img src="img/index/AD0Ivc-ZBRAEGAAgkJG1wQUo8oCgnAIwfjjLAQ.png" alt="" style="margin-bottom: 10px;"/><p>修身中长款长袖</p></li>
+				<li class="wow flipInY" data-wow-delay="300ms"><img src="img/index/AD0Ivc-ZBRAEGAAgjJG1wQUoiqDR2gEwigE4qgE.png" alt="" style="height: 170px;margin-top: 54px;"/><p>韩版显瘦圆领长袖</p></li>
+			</div>	
+		</div>
+		
+	</div>
+	<div class="conn">
+		<div class="wire wow fadeIn" data-wow-duration="2s" style="margin-top: 90px;"><p>时髦搭配</p><span></span></div>
+		<div class="cc">
+			<div class="mm">
+				<div class="zuo wow fadeInLeft"><img src="img/index/AD0Ivc-ZBRACGAAg1ZW1wQUoz666lQIwmwI4qQI.jpg"/></div>
+				<div class="zuo">
+					<li class="wow flipInX" data-wow-delay="50ms"><img src="img/index/7.png"/></li>
+					<li class="wow flipInX" data-wow-delay="50ms"><img src="img/index/8.png"/></li>
+					<li class="wow flipInX" data-wow-delay="100ms"><img src="img/index/9.png"/></li>
+					<li class="wow flipInX" data-wow-delay="100ms"><img src="img/index/10.png"/></li>
+					<li class="wow flipInX" data-wow-delay="200ms"><img src="img/index/11.png"/></li>
+					<li class="wow flipInX" data-wow-delay="200ms"><img src="img/index/12.png"/></li>
+				</div>
+				<div class="you wow fadeIn"><img src="img/index/AD0Ivc-ZBRAEGAAg3pW1wQUopaLMlAcwsgI4zQQ.png"/></div>
+				
+			</div>
+			<div class="nn">
+				<li class="wow flipInY"><img src="img/index/AD0Ivc-ZBRAEGAAggpi1wQUosMekAzCKATiqAQ.png" alt="" style="width: 130px;height: 160px;margin-top: 40px;"/><p>短款套头毛衣</p></li>
+				<li class="wow flipInY" data-wow-delay="100ms"><img src="img/index/AD0Ivc-ZBRAEGAAghJi1wQUotOPYmQcwdzikAQ.png" alt="" style="width: 120px;height: 160px;margin-top: 40px;"/><p>加厚针织衫</p></li>
+				<li class="wow flipInY" data-wow-delay="200ms"><img src="img/index/AD0Ivc-ZBRAEGAAgh5i1wQUo8JOoGTCTATitAQ.png" alt="" style="width: 130px;height: 160px;margin-top: 40px;"/><p>印花牛仔外套</p></li>
+				<li class="wow flipInY" data-wow-delay="300ms"><img src="img/index/AD0Ivc-ZBRAEGAAghZi1wQUon5XHiwUwkwE4pwE.png" alt="" style="width: 130px;height: 160px;margin-top: 40px;"/><p>休闲字母卫衣</p></li>
+			</div>
+			
+		</div>
+	</div>
+	<div class="yuan wow bounceInUp">
+		<img src="img/index/AD0I-_alBxAEGAAg6beA0AUoqYTnuAcw_QQ4kAM.png"/>
+	</div>
+	<div class="te">
+		<div class="one wow fadeInLeft" data-wow-delay="500ms">
+		<a href="img/index/b11.png"  data-lightbox="road2"><img src="img/index/b1.png"></a>
+		<a href="img/index/b11.png"  data-lightbox="road1">
+		<img src="img/index/imageEffetc_magnifier.png" class="icon1" style="display: none;"/></a>
+		</div>
+		<div class="bt" data-wow-duration="5s" data-wow-delay="800ms">
+			<p class="wow flipInX" data-wow-delay="600ms">IM ION NOI</p>
+			<span class="wow flipInX" data-wow-delay="650ms">有这样一个品牌，她年轻/活力/激情/个性</br>
+女人，不要随意去体验因为，她的灵魂会渗入你的生活</br>一举手，一投足</span>
+			<div class="set_8_button3 outline one1 wow flipInX" data-wow-delay="700ms" href="#">查看更多<span class="lines"></span></div>
+		</div>
+		  
+		<div class="two wow slideInUp">
+		<a href="img/index/ZO.jpg"  data-lightbox="road2" style="width: 500px;height: 700px;margin-left: -30px;"><img src="img/index/ZO.jpg"></a>
+		<a href="img/index/ZO.jpg"  data-lightbox="road1" >
+		<img src="img/index/imageEffetc_magnifier.png" class="icon2" style="display: none;"/></a>
+		</div>
+		<div class="three">
+			<li style="margin-bottom: 30px;" class="wow fadeInRight" data-wow-delay="500ms">
+				<a href="img/index/b4.png"  data-lightbox="road2">
+				<img src="img/index/b4.png"/></a>
+				<a href="img/index/b4.png"  data-lightbox="road2">
+			<img src="img/index/imageEffetc_magnifier.png" class="icon3" style="display: none;"/></a>
+			</li>
+			<li class="wow fadeInUp" data-wow-delay="500ms">
+				<a href="img/index/b5.png"  data-lightbox="road1">
+				<img src="img/index/b5.png"/></a>
+				<a href="img/index/b5.png"  data-lightbox="road1">
+			<img src="img/index/imageEffetc_magnifier.png" class="icon4" style="display: none;"/></a>
+			</li>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="top">
+			<div class="one1">
+				<p>服务保障</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one2">
+				<p>支付方式</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one3">
+				<p>商家服务</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one4">
+				<p>物流配送</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one5">
+				<p>官方微信</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+		</div>
+		<div class="con">
+			<div class="con1">
+				<a href="#">首页</a>
+				<a href="fashion.html">潮流搭配</a>
+				<a href="new.html">新品上市</a>
+				<a href="list.html">热卖推荐</a>
+				<a href="#"><img src="img/tell.jpg"/></a>
+			</div>
+			<div class="con2">
+				<p>版权所有 ©2017上海吾予—一见倾心有限公司  保留所有权利 | 沪ICP备12042163</p>
+				<p style="margin-top: -40px;">一见倾心   &nbsp;&nbsp;时尚潮流</p>
+			</div>
+			<!--<div class="con3">
+					<img src="img/guan_shgs.gif" alt="" />
+					<img src="img/guan_shgs.gif"/>
+					<img src="img/guan_wgdjp.png"/>
+			</div>-->
+		</div>
+	</div>
+	
+	</body>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/all.js" type="text/javascript" charset="utf-8"></script>
+	 <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    //ajax接口
+    $(function(){
+					
+				$("#myk").keyup(function(){
+					var $v = $(this).val();	
+					$("ul.soso").empty();
+					$.ajax({
+						type:"get",
+						url:"https://suggest.taobao.com/sug?code=utf-8&q="+$v+"&callback?",
+						async:true,
+						dataType:"jsonP",
+						success:function(res){
+							console.log(res);
+							$.each(res.result,function(i,d){
+								$("ul.soso").append("<li>"+d[0]+"</li>");
+							})
+						}
+						
+					});
+			})
+			});
+    
+    
+    //开头购物车
+    
+    	$(function() {
+        var offset = $("#end").offset();
+        $(".addcar").click(function(event){
+
+            var addcar = $(this);
+            var img = addcar.parents(".fadeInUp").find('img').eq(0).attr('src'); // 获取当前点击图片链接
+            var flyer = $('<img class="flyer" src="'+img+'">'); // 抛物体对象
+            flyer.fly({
+                start: {
+                    left: event.clientX, // 抛物体起点横坐标
+                    top: event.clientY // 抛物体起点纵坐标
+                },
+                end: {
+                    left: offset.left+10, // 抛物体终点横坐标
+                    top: 200, // 抛物体终点纵坐标
+                    width: 0, // 抛物体宽度
+                    height:0 // 抛物体高度
+                },
+                onEnd: function(){
+                    $("#msg").show().animate({width: '250px'}, 200).fadeOut(1000); // 成功加入购物车动画效果
+//        addcar.css("cursor","default").removeClass('orange').unbind('click'); 		 
+//        删除加入购物车按钮点击事件
+                    this.destory(); // 销毁抛物体
+                }
+            });
+        });
+    });
+//		购物车结尾
+  </script>
+</html>

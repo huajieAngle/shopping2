@@ -1,0 +1,151 @@
+body{
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.row{
+	width: 100%;
+	margin: 0;
+}
+.row .logo img{
+	width: 200px;
+	height: 80px;
+	margin-top: 10px;
+}
+.row .you{
+	margin-top: 32px;
+	width: 600px;
+	height:50px;
+	/*background-color: pink;*/
+}
+.row .search{
+	border-radius: 50px;
+}
+.row .search span{
+	top: -26px;
+	left: 320px;
+	color: #999;
+	font-size: 20px;
+}
+.row .goods{
+	width: 150px;
+	height: 38px;
+	background-color: #ff6537;
+	margin-top: -54px;
+	border-radius: 10px;
+}
+.row .goods p{
+	width: 40px;
+	height: 37px;
+	background-color: #e06122;
+	color: #fff;
+	padding-top: 7px;
+	font-size: 20px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+nav{
+	margin-top: 10px;
+	background-color: #ff6537;
+	color: #fff;
+}
+.row .col-lg-3,.row .col-lg-9{
+	/*border: 1px solid red;*/
+	margin-top: 30px;
+}
+.row .side{
+	width: 250px;
+	margin-right: 10px;
+}
+.pp{
+	margin-top: 6px;
+	font-size: 16px;
+}
+.price{
+	margin-top: -8px;
+	font-size: 16px;
+	color: #ff6637;
+}
+.btn{
+	margin-bottom: 6px;
+	width: 90px;
+    height: 32px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    padding-top: 3px;
+    background-color: #ff6637;
+}
+.text-center .thumbnail button.btn:hover{
+	margin-bottom: 6px;
+	width: 90px;
+    height: 32px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    padding-top: 3px;
+    color: #ff6637;
+    background-color: #fff;
+    border: 2px solid #ff6637;
+}
+.box{
+				width: 240px;
+				height: 170px;
+				border: 1px solid red;
+				overflow: hidden;
+				margin-top: -10px;
+			}
+			ul{
+				margin: 0;
+				list-style: none;
+			}
+			li{
+				height: 40px;
+				padding: 0;
+				line-height: 40px;
+				text-align: center;
+				font-size: 14px;
+				margin-left: -70px;
+			}
+#footer{
+	background-color: #efeeee;
+	padding-bottom: 50px;
+}#footer .footer-list{
+	margin-top: 80px;
+	padding-left: 20px;
+}
+li{
+	list-style: none;
+	text-align: left;
+}
+#footer .footer-list ul li{
+	margin-bottom: -16px;
+}
+#footer .zz .footer-item{
+	padding-left: 20px;
+}
+#footer .zz .footer-list{
+	padding-left: 20px;
+}
+
+/*header的hevor状态*/
+.navbar-nav > li > a{
+	width: 100px;
+	height: 54px;
+	padding-top: 18px;
+	margin-right: 100px;
+	margin: -2px auto;
+	background-color:rgba(255,255,255,0);
+}
+.navbar-nav > li > a:hover{
+	width: 130px;
+	height: 54px;
+	padding-top: 18px;
+	background-color:rgba(255,255,255,1);
+	margin: -2px auto;
+	transition: all .6s ease;
+}
+.btn{
+	
+}
+.btn:hover{
+	background-color: black;
+}
+

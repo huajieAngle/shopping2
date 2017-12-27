@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>吾予-一见倾心</title>
+		<link rel="stylesheet" type="text/css" href="css/all.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shopping.css"/>
+		<link rel="icon" href="logo--icon.png"/>
+		<link rel="stylesheet" type="text/css" href="css/cloudzoom.css"/>
+			<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/cloudzoom.js" type="text/javascript" charset="utf-8"></script>
+			<style type="text/css">
+				.jqueryzoom { position: relative; padding: 0; border: solid 1px #eaeaea; width: 300px; height:400px; overflow: hidden; display: inline-block; }
+/*放大镜是基于图片大小自动生成的，每次都要把jqueryzoom中img的大小和jqueryzoom盒子大小设置为一样的，不然放大镜滑块有可能溢出*/
+.jqueryzoom img { width: 300px;height: 400px; margin-bottom: 200px;}
+			</style>
+	  <script type="text/javascript">
+        CloudZoom.quickStart();
+    </script>
+	</head>
+	
+	<body>
+		<div class="headtop">
+			<div class="logo"><img src="img/logo.png"/></div>
+			<div class="inp">
+		<input type="text" name="" id="" value="请输入关键词搜索" style="text-align: left;"/>
+		<a href=""><img src="img/go.png"/></a>
+			</div>
+	<div class="goods">
+		<div class="left"><img src="img/ico.png"/></div>
+		<div class="right">我的购物车</div>
+	</div>
+		</div>
+		<div class="head">
+			<div class="nav">
+				<div class="nav1">
+					<div id="listtop">
+						<img src="img/nav1.jpg"/>
+					<p>全部商品分类</p>
+					</div>
+					<div class="nav1_list" style="display: none;">
+						<li>新品上架/Newly Listed</li>
+						<li>休闲女装/Leisure</li>
+						<li>日韩女装/Fashion</li>
+						<li>上衣/Coat</li>
+						<li>套装/Suit</li>
+						<li>裤装/Trousert</li>
+						<li>衬衫/Shirt</li>
+						<li>鞋包/Shose&Bages</li>
+					</div>
+					<div class="nav2">
+						<li id="now"><a href="index.html" style="font-size: 16px;">首页</a><span></span></li>
+						<li><a href="fashion.html" style="font-size: 16px;">潮流搭配</a><span></span></li>
+						<li><a href="new.html" style="font-size: 16px;">新品上市</a><span></span></li>
+						<li><a href="list.html" style="font-size: 16px;">热卖推荐</a><span></span></li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrap" style="justify-content: center;">
+			<div class="left ">
+				<div class="jqueryzoom"> 
+        <img id="img" class="cloudzoom" src="img/list3/blue_one_small.jpg"
+         data-cloudzoom="zoomSizeMode:'image',zoomImage: 'img/list3/blue_one_small.jpg',autoInside: 30" alt="呵呵哒" title=""/> </div>
+			<ul>
+        <li> 
+        	<img class="cloudzoom-gallery" src="img/list3/blue_one_small.jpg" data-cloudzoom="useZoom:'.cloudzoom',image:'img/list3/blue_one_small.jpg',zoomImage:'img/list3/blue_one_small.jpg'"/> 
+        </li>
+        <li> 
+        	<img class="cloudzoom-gallery" src="img/list3/yellow_one_small.jpg" data-cloudzoom="useZoom:'.cloudzoom',image:'img/list3/yellow_one_small.jpg',zoomImage:'img/list3/yellow_one_small.jpg'"/> 
+        </li>
+        <li> 
+        	<img class="cloudzoom-gallery" src="img/list3/green_one_small.jpg" data-cloudzoom="useZoom:'.cloudzoom',image:'img/list3/green_one_small.jpg',zoomImage:'img/list3/green_one_small.jpg'"/> 
+        </li>
+      </ul>
+			</div>		
+			<div class="right" style="display: block;">
+				<p>欧美低圆领套头修身显瘦长袖上衣</p>
+				<p style="font-size: 14px;margin-left: 50px;margin-top: 20px;">专柜价 :<span style="text-decoration: line-through ;font-weight: bold;">￥778.00</span>
+				<p style="font-size: 14px;margin-left: 50px;">促销价 :<span style="color:#ff6537;font-size: 26px;font-weight: bold;">￥</span>
+					<span style="color:#ff6537;font-size: 38px;font-weight: bold;">389.00</span><span style="width: 20px;height: 10px;background-color: #ff6537;color: #fff;font-size: 12px;margin-left: 10px;padding: 2px 4px;">打5折</span></p>
+					<a>
+						<span class="ping">评论：0条 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;收藏：0</span>
+					</a>
+					<div class="sp">
+						颜色：<span style="margin-left: 10px;">蓝色</span><span>黄色</span><span>橙色</span><span>红色</span>
+					</div>
+					<div class="sl">
+						尺码：<span style="margin-left: 10px;">&nbsp;XS &nbsp;</span><span>&nbsp;&nbsp;M&nbsp;&nbsp;</span><span>&nbsp;&nbsp;S  &nbsp;</span><span>&nbsp;&nbsp;L &nbsp;&nbsp;</span>
+					</div>
+					<div id="num">购买数量:
+					<input type="text" name="" id="inp" value="1" />
+					<div class="br"><input type="button" name="" id="btn1" value="+" /><input type="button" name="" id="btn2" value="-" /></div>
+					</div>
+					<div class="glass">
+						<img src="img/list3/good.png"/>
+						<a href="goods.html"><span class="mma" style="font-size: 16px;">购买</span></a>
+						<div class="aa">
+							<li>产品保证</li>
+							<li><img src="img/list3/icon.png"style="width: 18px;height: 18px;position:absolute;margin-top: 2px;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正品保证</li>
+							<li><img src="img/list3/icon.png"style="width: 18px;height: 18px;position:absolute;margin-top: 2px; "/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;快速发货</li>
+						</div>
+					</div>
+			</div>
+	</div>	
+	<div class="centent">
+		<div class="shang">
+			<input type="button" name="" id="btn3" value="产品评论 (0) " />
+			<input type="button" name="" id="btn4" value="产品详情" />
+		</div>
+		<div class="zhong">
+			<div id="pinglun" style="display: block;">
+			<li>昵称:&nbsp;&nbsp;&nbsp;&nbsp;  <input type="text" name="" id="" value="" /></li>
+			<li><span>评论内容: </span><textarea rows="3" cols="30"></textarea></li>
+			<li>上传图片:<input name="imgfile" type="file" accept="image/gif, image/jpeg" id="in"/></li>
+			<li><input type="button" name="" id="btn5" value="提交评论" /></li>
+		</div>
+		<div id="xiangqing" style="display: none;">
+			编辑产品详情....
+		</div>
+	</div>
+	
+	
+		<div class="footer">
+		<div class="top">
+			<div class="one1">
+				<p>服务保障</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one2">
+				<p>支付方式</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one3">
+				<p>商家服务</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one4">
+				<p>物流配送</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one5">
+				<p>官方微信</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+		</div>
+		<div class="con">
+			<div class="con1">
+				<a href="">首页</a>
+				<a href="">潮流搭配</a>
+				<a href="">新品上市</a>
+				<a href="">热卖推荐</a>
+				<a href=""><img src="img/tell.jpg"/></a>
+			</div>
+			<div class="con2">
+				<p>版权所有 ©2017上海吾予—一见倾心有限公司  保留所有权利 | 沪ICP备12042163</p>
+				<p style="margin-top: -40px;">一见倾心   &nbsp;&nbsp;时尚潮流</p>
+			</div>
+		</div>
+	</body>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shopping.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
+
+

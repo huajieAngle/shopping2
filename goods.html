@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>吾予-一见倾心</title>
+		<link rel="stylesheet" type="text/css" href="css/all.css"/>
+		<link rel="stylesheet" href="css/animate.css">
+ 	 	<link rel="stylesheet" href="css/site.css">
+ 	 	<link rel="stylesheet" type="text/css" href="css/goods.css"/>
+ 	 	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+ 	 	<script src="js/goods.js" type="text/javascript" charset="utf-8"></script>
+ 	 	<script src="js/lightbox.js"></script>
+ 	 	<script src="js/wow.js"></script>
+	</head>
+	<body>
+		<div class="headtop">
+			<div class="logo"><img src="img/logo.png"/></div>
+			<div class="inp">
+				<input type="text" name="" id="myk" placeholder="请输入关键词搜索" style="z-index: -1; color: #cbc9c9;"/>
+				<a href=""><img src="img/go.png"/></a>
+			</div>
+		<div class="goods">
+			<div class="left"><img src="img/ico.png"/></div>
+			<div class="right">我的购物车</div>
+		</div>
+		</div>
+		<p class="xian"></p>
+		<div class="cen">
+			<p class="shang" style="color: #666;"><span style="font-size: 20px;">配送至 <span style="font-size: 16px;font-weight: bold;">湖北 </span><span style="color: #999;"> &nbsp;&nbsp; | &nbsp;&nbsp; </span></span>请在 <span style="color: red;font-size: 18px;" id="time"></span> 内提交订单，下单后你另有 30 分钟的支付时间。</p>
+			<div class="goods">
+				<p class="tiao"><span></span>店铺优选</p>
+				<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td  style="width: 140px;margin-left: 20px;" class="td1">
+					<input type="checkbox" class="checkAll" /><label>全选</label>
+				</td>
+				<td style="width: 500px;">商品信息</td>
+				<td style="width: 140px;">单价</td>
+				<td style="width: 140px;">数量</td>
+				<td style="width: 140px;">金额</td>
+				<td style="width: 140px;">操作</td>
+			</tr>
+			<tr class="ad">
+				<td style="width: 140px;">
+					<input type="checkbox" class="checkOne" id="ch1"/>
+					<img src="img/2.png">
+				
+				</td>
+				<td style="width: 400px;">
+					<a href="#">【双旦礼遇价】秋冬连衣裙女</br>2017新款无袖中腰圆领连衣裙</a>
+						<span class="zhi">双旦礼遇季</span>
+						<span class="size">颜色：红色（预售1月25日陆续发）</br>尺码：46/165/S</span>
+				</td>
+				<td class="sPrice" style="width: 140px;">189</td>
+				<td>
+					<button class="left">-</button>
+					<input type="number" value="1" class="num" style="width: 30px;text-align: center;padding-left: 6px;"/>
+					<button class="right">+</button>
+				</td>
+				<td class="tPrice" style="width: 140px;padding-left: 30px; color: red; font-weight: bold;">189</td>
+				<td>
+					<button class="delOne">删除</button>
+				</td>
+			</tr>
+			<tr class="ad">
+				<td style="width: 140px;">
+					<input type="checkbox" class="checkOne" id="ch1"/>
+					<img src="img/4.png">
+				
+				</td>
+				<td style="width: 400px;">
+					<a href="#">【双旦礼遇价】时尚休闲上衣</br>2017新款时尚圆领长袖T恤印花
+</a>
+						<span class="zhi">双旦礼遇季</span>
+						<span class="size1">颜色：白色（预售1月25日陆续发）</br>尺码：46/165/S</span>
+				</td>
+				<td class="sPrice" style="width: 140px;">239</td>
+				<td>
+					<button class="left">-</button>
+					<input type="number" value="1" class="num" style="width: 30px;text-align: center;padding-left: 6px;"/>
+					<button class="right">+</button>
+				</td>
+				<td class="tPrice" style="width: 140px;padding-left: 30px; color: red; font-weight: bold;">239</td>
+				<td>
+					<button class="delOne">删除</button>
+				</td>
+			</tr>
+			<tr class="ad">
+				<td style="width: 140px;">
+					<input type="checkbox" class="checkOne" id="ch1"/>
+					<img src="img/5.png">
+				
+				</td>
+				<td style="width: 400px;">
+					<a href="#">【双旦礼遇价】纯色双排扣</br>2017中长款直筒纯色毛呢外套</a>
+						<span class="zhi">双旦礼遇季</span>
+						<span class="size2">颜色：黄色（预售1月25日陆续发）</br>尺码：46/165/S</span>
+				</td>
+				<td class="sPrice" style="width: 140px;">365</td>
+				<td>
+					<button class="left">-</button>
+					<input type="number" value="1" class="num" style="width: 30px;text-align: center;padding-left: 6px;"/>
+					<button class="right">+</button>
+				</td>
+				<td class="tPrice" style="width: 140px;padding-left: 30px; color: red; font-weight: bold;">365</td>
+				<td>
+					<button class="delOne">删除</button>
+				</td>
+			</tr>
+			<tr class="ad">
+				<td style="width: 140px;">
+					<input type="checkbox" class="checkOne" id="ch1"/>
+					<img src="img/3.png">
+				
+				</td>
+				<td style="width: 500px;">
+					<a href="#">【双旦礼遇价】秋冬连衣裙女</br>2017新款圆领推荐领套头A字裙</a>
+						<span class="zhi">双旦礼遇季</span>
+						<span class="size3">颜色：黑色（预售1月25日陆续发）</br>尺码：46/165/S</span>
+				</td>
+				<td class="sPrice" style="width: 140px;">365</td>
+				<td>
+					<button class="left">-</button>
+					<input type="number" value="1" class="num" style="width: 30px;text-align: center;padding-left: 6px;"/>
+					<button class="right">+</button>
+				</td>
+				<td class="tPrice" style="width: 140px;padding-left: 30px; color: red; font-weight: bold;">365</td>
+				<td>
+					<button class="delOne">删除</button>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr style="height:28px;width: 1200px;margin-top: 20px;">
+				<td class="quan" style="border: 1px solid #ff6537;border-radius: 4px;text-align: center;font-size: 14px;color: #ff6537;">使用优惠券 &nbsp;&nbsp;^</td>
+				<td colspan="3" ></td>  
+				<td class="other" style="width: 1040px;text-align: right;">共<b>0</b>件商品  商品金额<b style="margin-left: 60px;">0</td>
+				
+			</tr>
+			<tr style="height: 25px;width: 1200px;">
+				<td colspan="4" ></td>  
+				<td style="text-align: right;">活动优惠<b style="margin-left: 40px;">120</b></td>
+			</tr>
+		</table>
+		<span style="width: 1000px; height: 40px; background-color:#f7f3f3;display: inline-block;"></span>
+		<button style="width: 200px; height: 40px;line-height: 40px; background-color:#ff6537;float: right; font-size: 16px; color: #fff;">立即结算<span id="time1" style="color: #fff;font-size: 14px; margin-left: 10px;"></span></button>
+			</div>
+			
+		</div>	
+		<div class="geass">
+			<span class="link">猜你喜欢</span>
+			<span class="link1"></span>
+			<div class="tuu">
+				<ul>
+					<li><img src="img/88-1.jpg"/>
+					<p class="zi">2017秋冬新款潮流时尚</p>
+					<p class="qian">￥88.00</p>
+					</li>
+					<li><img src="img/88-2.jpg"/>
+						<p class="zi">2017秋冬新款潮流时尚</p>
+						<p class="qian">￥88.00</p>
+					</li>
+					<li><img src="img/88-4.jpg"/>
+						<p class="zi">2017秋冬新款潮流时尚</p>
+						<p class="qian">￥88.00</p>
+					</li>
+					<li><img src="img/88=3.jpg"/>
+						<p class="zi">2017秋冬新款潮流时尚</p>
+						<p class="qian">￥88.00</p>
+					</li>
+					<li><img src="img/index/list1.jpg"/>
+						<p class="zi">2017秋冬新款潮流时尚</p>
+						<p class="qian">￥88.00</p>
+					</li>
+					<li><img src="img/1.png"/>
+					<p class="zi">2017秋冬新款潮流时尚</p>
+					<p class="qian">￥88.00</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<div class="footer">
+		<div class="top">
+			<div class="one1">
+				<p>服务保障</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one2">
+				<p>支付方式</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one3">
+				<p>商家服务</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one4">
+				<p>物流配送</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+			<div class="one5">
+				<p>官方微信</p>
+				<span>正品保证</span>
+				<span>天无理由退换</span>
+				<span>退货返运费</span>
+				<span>7X5小时客户服务</span>
+			</div>
+		</div>
+		<div class="con">
+			<div class="con1">
+				<a href="#" style="font-size: 16px;">首页</a>
+				<a href="fashion.html" style="font-size: 16px;">潮流搭配</a>
+				<a href="new.html" style="font-size: 16px;">新品上市</a>
+				<a href="list.html" style="font-size: 16px;">热卖推荐</a>
+				<a href="#"><img src="img/tell.jpg"/></a>
+			</div>
+			<div class="con2">
+				<p>版权所有 ©2017上海吾予—一见倾心有限公司  保留所有权利 | 沪ICP备12042163</p>
+				<p style="margin-top: -40px;">一见倾心   &nbsp;&nbsp;时尚潮流</p>
+			</div>
+			<!--<div class="con3">
+					<img src="img/guan_shgs.gif" alt="" />
+					<img src="img/guan_shgs.gif"/>
+					<img src="img/guan_wgdjp.png"/>
+			</div>-->
+		</div>
+	</div>
+	</body>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var i=1800;
+			var conter = document.getElementById("time");
+			var conter1 = document.getElementById("time1");
+			function count(){
+				i--;
+			var t1=parseInt(i/60);
+			if(i>=1740){
+				var t2=60-(1800-i);
+			}else{
+				var t2=60-((1800-i)-parseInt((1800-i)/60)*60)-1;
+			}
+			if(t2<10){
+				t2="0"+t2;
+			}
+			if(t1<10){
+				t1="0"+t1;
+			}
+			conter.innerHTML = t1+"分"+t2+"秒";
+			conter1.innerHTML = t1+" : "+t2;
+			tt= setTimeout("count()",1000);  //递归函数，多次调用自身；
+			if(i<=0){
+				clearTimeout(tt);     //注意tt的位置，当小于0时，清除
+			}		
+			}
+			count();
+			//购物车结算
+			$(function(){
+				//全选
+				$(".checkAll").click(function(){
+					all = $(this).prop("checked");//全选按钮的状态
+					$(".checkOne").prop("checked",all);
+					total();
+				});
+				total();
+				//计算总价 和 数量
+				function total(){
+					var $number = 0,$sum = 0;
+					$(".checkOne:checked").each(function(){  //遍历所有被选中的单选按钮
+						$number += $(this).parents("tr").find(".num").val() * 1;//总件数
+						$sum += $(this).parents("tr").find(".sPrice").html() * $(this).parents("tr").find(".num").val();
+					});
+					$(".other").find("b:first-child").html($number);
+					$(".other").find("b:last-child").html($sum);
+				}
+			});
+	</script>
+</html>
+
+
